@@ -6,7 +6,7 @@ if (isset($_SESSION['role'])) {
     else header("Location: admin_dashboard.php");
     exit;
 }
-
+///ธรรมศักดิ์ 
 // รับค่าจาก QR Code (ถ้ามี)
 $redirect_act_id = isset($_GET['redirect_act_id']) ? $_GET['redirect_act_id'] : '';
 ?>
